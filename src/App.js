@@ -19,8 +19,6 @@ import Amplify, {Auth} from '@aws-amplify/core'
 import awsconfig from "./aws-exports";
 Amplify.configure(awsconfig);
 
-
-
 function App() {
   let [assets, setAssets] = useState();
 
@@ -33,6 +31,12 @@ function App() {
           value: 2000
       })
     );
+  };
+  
+  let getLiveAssets = async () => {
+    DataStore.observe(Asset).subscribe(msg => {
+      listAssets();
+    });
   };
 
   let listAssets = async () => {
@@ -49,6 +53,7 @@ function App() {
 
   useEffect(() => {
     listAssets();
+    getLiveAssets();
   }, []);
 
   return (
