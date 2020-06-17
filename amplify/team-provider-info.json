@@ -1,0 +1,38 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-net-worth-tracker-dev-154038-authRole",
+            "UnauthRoleArn": "arn:aws:iam::460288031152:role/amplify-net-worth-tracker-dev-154038-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::460288031152:role/amplify-net-worth-tracker-dev-154038-authRole",
+            "Region": "us-east-2",
+            "DeploymentBucketName": "amplify-net-worth-tracker-dev-154038-deployment",
+            "UnauthRoleName": "amplify-net-worth-tracker-dev-154038-unauthRole",
+            "StackName": "amplify-net-worth-tracker-dev-154038",
+            "StackId": "arn:aws:cloudformation:us-east-2:460288031152:stack/amplify-net-worth-tracker-dev-154038/915dba60-af1e-11ea-a0c6-0aeddbb89fe2",
+            "AmplifyAppId": "d1pd84zd2jo2yu"
+        },
+        "categories": {
+            "auth": {
+                "networthtracker5682e450": {}
+            }
+        }
+    },
+    "prod": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-net-worth-tracker-prod-170652-authRole",
+            "UnauthRoleArn": "arn:aws:iam::460288031152:role/amplify-net-worth-tracker-prod-170652-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::460288031152:role/amplify-net-worth-tracker-prod-170652-authRole",
+            "Region": "us-east-2",
+            "DeploymentBucketName": "amplify-net-worth-tracker-prod-170652-deployment",
+            "UnauthRoleName": "amplify-net-worth-tracker-prod-170652-unauthRole",
+            "StackName": "amplify-net-worth-tracker-prod-170652",
+            "StackId": "arn:aws:cloudformation:us-east-2:460288031152:stack/amplify-net-worth-tracker-prod-170652/9c48b7c0-af2a-11ea-a186-025282f53354",
+            "AmplifyAppId": "d1pd84zd2jo2yu"
+        },
+        "categories": {
+            "auth": {
+                "networthtracker5682e450": {}
+            }
+        }
+    }
+}
